@@ -1,0 +1,12 @@
+.petcardmobile {
+    width: 255px;
+    height: 180px;
+}
+
+@media screen and (max-width: 360px) {
+    .petcardmobile {
+        width: 195px;
+        height: 134px;
+    }
+
+}

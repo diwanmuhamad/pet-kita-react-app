@@ -1,0 +1,173 @@
+
+    .image-first-banner {
+        background-image: url('../../../public/assets/supersale1.jpg');
+        background-size: 600px 500px;
+        width: 600px;
+        height: 500px;
+    }
+    
+    .image-second-banner {
+        background-image: url('../../../public/assets/petshopsale1.jpg');
+        background-size: 600px 500px;
+        width: 600px;
+        height: 500px;
+    }
+    
+    .image-third-banner {
+        background-image: url('../../../public/assets/flashsale1.jpg');
+        background-size: 600px 500px;
+        width: 600px;
+        height: 500px;
+    }
+
+    .radio-input-container {
+        position: absolute;
+        margin-left: 260px;
+        margin-top: 420px;
+        display: flex;
+    }
+    
+
+@media screen and (max-width: 1400px) {
+    .first-banner {
+        background-image: url('../../../public/assets/supersale1.jpg');
+        background-size: 500px 420px;
+        width: 500px;
+        height: 420px;
+    }
+    
+    .second-banner {
+        background-image: url('../../../public/assets/petshopsale1.jpg');
+        background-size: 500px 420px;
+        width: 500px;
+        height: 420px;
+    }
+    
+    .third-banner {
+        background-image: url('../../../public/assets/flashsale1.jpg');
+        background-size: 500px 420px;
+        width: 500px;
+        height: 420px;
+    }    
+
+    .radio-input-container {
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 350px;
+        display: flex;
+    }
+    
+    
+}
+
+.radio-input-container > input {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+    border-radius:50%;
+    outline:none;
+    background-color: rgb(207, 204, 204);
+    opacity: .7;
+}
+
+.first-banner > div > :first-child {
+   background-color: #F99941;
+   opacity: 100%;
+}
+
+.second-banner> div > :nth-child(2){
+    background-color: #F99941;
+    opacity: 100%;
+}
+
+
+.third-banner > div >:last-child {
+   background-color: #F99941;
+   opacity: 100%;
+}
+
+
+
+
+.cart-container-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .first-banner {
+        background-image: url('../../../public/assets/supersale1.jpg');
+        background-size: 360px 300px;
+        width: 360px;
+        height: 300px;
+    }
+    
+    .second-banner {
+        background-image: url('../../../public/assets/petshopsale1.jpg');
+        background-size: 360px 300px;
+        width: 360px;
+        height: 300px;
+    }
+    
+    .third-banner {
+        background-image: url('../../../public/assets/flashsale1.jpg');
+        background-size: 360px 300px;
+        width: 360px;
+        height: 300px;
+    }
+    
+    .radio-input-container {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 250px;
+        display: flex;
+    }
+    
+    .radio-input-container > input {
+        -webkit-appearance:none;
+        width:12px;
+        height:12px;
+        margin-left: 10px;
+        border-radius:50%;
+        outline:none;
+        background-color: rgb(207, 204, 204);
+        opacity: .7;
+        margin-top: 20px;
+    }
+    
+    .first-banner > div > :first-child {
+       background-color: #F99941;
+       opacity: 100%;
+    }
+    
+    .second-banner> div > :nth-child(2){
+        background-color: #F99941;
+        opacity: 100%;
+    }
+    
+    
+    .third-banner > div >:last-child {
+       background-color: #F99941;
+       opacity: 100%;
+    }
+
+    .cart-container-mobile {
+        display: block;
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #F99941;
+        left: 304px;
+        top: 80px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 0;
+    }
+
+    .but {
+        color: white;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: 9px;
+    }
+}

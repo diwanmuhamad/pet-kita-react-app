@@ -1,0 +1,318 @@
+.container-chekcout{
+    margin-left: 80px;
+    margin-right: 120px;
+    padding-bottom: 30px;
+}
+
+.checkout-container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #F99941;
+    font-family: 'Nunito sans';
+}
+
+.container-table1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.address-container{
+    margin-left: 0px;
+    height: 165px;
+    z-index: 1;
+    margin-bottom: 30px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 20px;
+}
+.telephone-container{
+    margin-left: 20px;
+    height: 100px;
+    z-index: 1;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.telephone-margin{
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    margin-left: 400px;
+}
+
+.input-container{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+
+.address-input{
+    height: 70px;
+    width: 500px;
+    margin-bottom: 10px;
+    resize: none;
+    margin-left: 20px;
+    border-radius: 10px;
+ }
+
+.number-input{
+    width: 180px;
+    margin-left: 110px;
+
+}
+
+.list-container{
+    margin-bottom: 30px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 20px;
+}
+
+.list{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px 0px;
+}
+
+
+
+.list-name{
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 38px;
+    color: #4F4F4F;
+}
+
+
+.list-quantity{
+    margin-top: 1px;
+    font-family: 'Nunito sans';
+    font-size: 14px;
+}
+
+.shopping-price{
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.item-container{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Nunito sans';
+    color: #4F4F4F;
+
+}
+
+.payment-total-price{
+    margin-top: 15px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+}
+
+.payment-container{
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 20px;
+}
+
+.payment-detail{
+    display: flex;
+    align-items: flex-start;
+}
+
+.payment-list{
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 180px;
+    color:#4F4F4F
+}
+
+.button-checkout {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F99941;
+    border: 1px solid #F99941;
+    border-radius: 8px;
+    width: 150px;
+    height: 35px;
+}
+
+.cancel{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #F99941;
+    background: none;
+}
+
+.pay{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.title-format{
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #F99941;
+    border-bottom: 1px solid;
+    color: #FFFFFF;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 5px;
+}
+
+.list-detail {
+    margin-left: 20px;
+}
+
+.title-margin{
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Nunito Sans';
+}
+
+.dialog-boxx{
+    width:600px; 
+    height:500px;
+    text-align: center;
+    padding:170px;
+}
+
+.payment-status{
+    font-family: 'Nunito Sans';
+    color: #F99941;
+    font-weight: 700;
+}
+
+.dialog-home-button{
+    margin-top: 70px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: #F99941;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 360px){
+        .address-container {
+            width: 340px;
+        }
+        .container-chekcout{
+            margin-left: 10px;
+            margin-right: 30px;
+        }
+        .checkout-container{
+            font-size: 15px;
+        }
+        .container-table1{
+            flex-direction: column;
+            width: 340px;
+        }
+        .subcontainer-table1{
+            width: 338px;
+        }
+        .address-input{
+            width: 150px;
+            height: 80px;
+            margin-left: 10px;
+        }
+        .telephone-container{
+            margin-left: 5px;
+        }
+        .telephone-margin{
+            font-size: 18px;
+            color: white;
+            margin-left: 20px;
+        }
+        .number-input{
+            margin-left: 25px;
+            width: 140px;
+        }
+        .title-margin{
+            margin-left: 5px;
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+        .list-container{
+            width: 340px;
+            flex-direction: column;
+        }
+        .list{
+            flex-direction: column;
+        }
+        .image_content{
+            margin-left: 30px;
+        }
+        .list-detail{
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        .list-name{
+            font-size: 17px;
+        }
+        .list-price{
+            font-size: 17px;
+            margin-top: 10px;
+        }
+        .list-quantity{
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .shopping-price{
+            width: 340px;
+        }
+        .payment-container{
+            width: 340px;
+        }
+        .payment-detail{
+            flex-direction: column;
+        }
+        .button-container{
+            margin-left: 10px;
+            gap: 20px;
+        }
+
+        .dialog-boxx{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin-left: 0px;
+            right: 50px;
+            bottom: 30px;
+        }
+        .payment-status{
+            font-size: 14px;
+        }
+        .dialog-home-button{
+            width: 70px;
+            height: 40px;
+            font-size: 15px;
+            align-content: center;
+        }
+}

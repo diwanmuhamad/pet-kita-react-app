@@ -1,0 +1,193 @@
+
+.landing-page-firstcontent-container {
+    width: 87.5%;
+    margin-top: 120.5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
+}
+
+.slider-grid-container {
+    display: flex;
+}
+
+.slider-grid-container >:first-child {
+    margin-right: 40px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    min-width: 500px;
+}
+
+
+
+.first-image-bird-container {
+    border: 2px solid #F99941;
+    background-image: url("../../../public/assets/bird1.jpg");
+    background-size: 280px;
+}
+
+.first-image-cat-container {
+    border: 2px solid #F99941;
+    background-image: url("../../../public/assets/cat2.jpg");
+    background-size: 290px;
+}
+
+.first-image-dog-container {
+    border: 2px solid #F99941;
+    background-image: url("../../../public/assets/dog1.jpg");
+    background-size: 270px;
+}
+
+.first-image-hamster-container {
+    border: 2px solid #F99941;
+    background-image: url("../../../public/assets/hams1.jpg");
+    background-size: 270px 240px;
+}
+
+.firstcontent-pet-container {
+    margin-left: 25%;
+    margin-top: 130px;
+    background-color: #F99941;
+    width: 54%;
+    min-width: 130px;
+    max-width: 150px;
+    padding: .1em ;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    
+}
+
+.line-firstcontent {
+    margin-top: 70px;
+    width: 100%;
+    height: 1px;
+    background-color: #BDBDBD;
+}
+
+.slider-mobile-carousel {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .landing-page-firstcontent-container {
+        width: 87.5%;
+        margin-top: 13px;
+        margin-left: 0;
+        margin-right: auto;
+        /* border: 2px solid black; */
+    }
+    
+    .slider-grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .slider-grid-container >:first-child {
+        margin-right: 40px;
+    }
+    
+    .grid-container {
+        display: none;
+        flex-direction: column;
+        gap: 30px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 360px;
+        min-width: 300px;
+    }
+    
+    
+    
+    .first-image-bird-container {
+        border: 2px solid #F99941;
+        background-image: url("../../../public/assets/bird1.jpg");
+        background-size: 250px;
+    }
+    
+    .first-image-cat-container {
+        border: 2px solid #F99941;
+        background-image: url("../../../public/assets/cat2.jpg");
+        background-size: 290px;
+    }
+    
+    .first-image-dog-container {
+        border: 2px solid #F99941;
+        background-image: url("../../../public/assets/dog1.jpg");
+        background-size: 270px;
+    }
+    
+    .first-image-hamster-container {
+        border: 2px solid #F99941;
+        background-image: url("../../../public/assets/hams1.jpg");
+        background-size: 270px 240px;
+    }
+    
+    .firstcontent-pet-container {
+        margin-left: 25%;
+        margin-top: 130px;
+        background-color: #F99941;
+        width: 54%;
+        min-width: 130px;
+        max-width: 150px;
+        padding: .1em ;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-size: 32px;
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        
+    }
+    
+    .line-firstcontent {
+        margin-top: 70px;
+        width: 360px;
+        height: 1px;
+        background-color: #BDBDBD;
+    }
+
+    .slider-mobile-carousel {
+        display: flex;
+        margin-left: 17px;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .button-mobile {
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+
+    .arrow {
+        border: solid #828282;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-left: 15.5px;
+        margin-top: 17.4px;
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      
+      .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+}

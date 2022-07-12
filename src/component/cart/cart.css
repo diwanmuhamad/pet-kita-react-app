@@ -1,0 +1,535 @@
+.container-top{
+    margin-left: 105px;
+    margin-top: 105px;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lost-total {
+    display: none;
+}
+
+.checkbox-style{
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+    
+}
+
+.upper-font{
+    margin-left: 21px;
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.74px;
+    margin-top: 5px;
+    color: #4F4F4F;
+}
+
+.delete-icon{
+    width: 18.67px;
+    height: 24px;
+    top: 4px;
+    left: 6.67px;
+    color: #EB5757;
+    margin-top: 7px;
+    margin-right: 5px;
+    
+}
+
+.delete-font{
+    margin: 0;
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-left: 14.67px;
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: right;
+    color: #4F4F4F;
+}
+.line-top{
+    margin-left: 105px;
+    margin-right: 100px;
+    width: 85%;
+    height: 0px;
+    border: 2px solid #E0E0E0;
+    margin-top: 50px;
+    align-self: stretch;
+    align-items: center;
+}
+.list-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 85%px;
+    height: 174px;
+    margin-top: 40px;
+    margin-left: 105px;
+    margin-bottom: 40px;
+}
+
+.container-list{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 85%px;
+    height: 148px;
+    left: 100px;
+    top: 315px;
+    justify-content: space-between;
+}
+.checkbox-style-list{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+    
+}
+
+.list-cart-img{
+    width: 200px;
+    height: 134px;
+    border: 1px solid #BDBDBD;
+    margin-top: 15px;
+}
+
+.list-cart-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 538px;
+    height: 134px;
+    margin-top: 15px;
+    
+}
+.item-name{
+    width: 260px;
+    height: 80px;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #4F4F4F;
+}
+.item-price{
+    margin-top: 16px;
+    width: 168px;
+    height: 38px;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #000000;
+
+}
+.line-cart-item{
+    margin-right: 100px;
+    width: 85%px;
+    height: 0px;
+    border: 1px solid #E0E0E0;
+    align-self: stretch;
+    align-items: center;
+
+}
+
+.add-quantity-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 140px;
+    height: 38px;
+    margin-top: 75px;
+    margin-left: 100px;
+    
+}
+.font-quantity{
+    width: 30px;
+    height: 38px;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+    color: #F99941;
+}
+.minus-qty{
+    width: 24px;
+    height: 24px;
+    font-size: 25px;
+    color: #4F4F4F;
+    background: none;
+    border: none;
+
+}
+.plus-qty{
+    width: 24px;
+    height: 24px;
+    font-size: 25px;
+    color: #4F4F4F;
+    background: none;
+    border: none;
+}
+
+.british {
+    background-image: url('../../../public/assets/britishcat.jpg');
+    background-size: 200px 134px;
+}
+.husky {
+    background-image: url('../../../public/assets/siberianhusky.jpg');
+    background-size: 200px 134px;
+}
+
+.container-total{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 20px 40px;
+    gap: 60px;
+    width: 100%;
+    height: 25%;
+    left: 0px;
+    background: #FFFFFF;
+    border-top: 1px solid #BDBDBD;
+    bottom: 0px;
+    position: fixed;
+}
+
+.container-shopping-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 8px;
+    width: 75%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.font-shopping-details{
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+.container-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.style-item{
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #828282;
+}
+.style-qty{
+    width: 100%;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #4F4F4F;
+}
+.line-shopping-details{
+    width: 100%;
+    height: 0px;
+    border: 1px solid #BDBDBD;
+}
+.container-total-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    /* gap: 24px; */
+    width: 100%;
+    
+}
+.style-totprice{
+    width: 139px;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+.font-totprice{
+    width: 866px;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+    color: #4F4F4F;
+}
+.style-buynow-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #F99941;
+    border: none;
+    color: white;
+}
+
+.style-buynow-buttonnow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #BDBDBD;
+    border: none;
+    color: white;
+}
+
+.checkboxdivs {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: #828282 3px solid;
+    border-radius: 3px;
+    margin-top: 11px;
+    cursor: pointer;
+    color: transparent;
+}
+
+.checkboxcheckeds {
+    width: 18px;
+    height: 18px;
+    background-color: #F99941;
+    border-radius: 3px;
+    margin-top: 11px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.cart-no-item {
+    height: 100vh;
+    width: 100vw;
+}
+
+.h2-no-item-incart {
+    font-size: 32px;
+    font-family: "Nunito Sans";
+    color: #4F4F4F;
+    margin-bottom: 70px;
+}
+
+.container-cart-no-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.buttonbacktohome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #F99941;
+    border: none;
+    color: white;
+}
+.checklistmarks {
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+.listss {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: #828282 3px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    color: transparent;
+    margin-top: 55px;
+}
+
+.listss22 {
+    width: 18px;
+    height: 18px;
+    background-color: #F99941;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    margin-top: 55px;
+}
+
+.trash-image-cart {
+    margin-top: 5px;
+    width: 24px;
+    height: 30px;
+}
+
+.image-cart-pets {
+    width: 200px;
+    height: 134px;
+}
+
+@media screen and (max-width: 360px) {
+    .container-top {
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 360px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .upper-font {
+        font-size: 14px;
+    }
+    .delete-font {
+        font-size: 14px;
+    }
+
+    .trash-image-cart {
+        width: 15px;
+        height: 18px;
+        margin-top: 10px;
+    }
+
+    .list-box {
+        width: 360px;
+        height: 100px;
+        margin-left: 20px;
+        gap: 0;
+        justify-content: flex-start;
+    }
+    .container-list {
+        width: 100px;
+        height: 100px;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .image-cart-pets {
+        width: 100px;
+        height: 80px;
+    }
+
+    .list-cart-text {
+        gap: 0px;
+    }
+    .item-name {
+        font-size: 15px;
+        margin-bottom: 0px;
+        line-height: 0px;
+        height: 50px;
+    }
+    .item-price {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: 0px;
+        height: 12px;
+    }
+
+    .line-top {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .line-cart-item {
+        width: 90%;
+    }
+
+    .add-quantity-item {
+        position: relative;
+        margin-left: 10px;
+        gap: 0px;
+        bottom: 55px;
+        right: 190px;
+    }
+
+    .minus-qty {
+        font-size: 16px;
+        margin-right: 0px;
+    }
+
+    .font-quantity {
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .plus-qty {
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 3px;
+    }
+    .container-total{
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 20px 20px;
+        gap: 30px;
+        width: 360px;
+        height: 150px;
+        left: 0px;
+        background: #FFFFFF;
+        border-top: 1px solid #BDBDBD;
+        bottom: 0px;
+        position: fixed;
+    }
+
+    .font-shopping-details {
+        font-size: 16px;
+    }
+
+    .style-item {
+        font-size: 14px;
+    }
+
+    .style-qty {
+        font-size: 14px;
+    }
+
+    .style-totprice {
+        font-size: 14px;
+    }
+
+    .font-totprice {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,99 @@
+.container{
+    margin-left: 30px;    
+    margin-top: 10px;
+    width: 90%;
+}
+
+.buttonarrowadmin {
+    background: none;
+    height: 20px;
+    background-color: #F99941;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.buttonarrowadmin:hover {
+    opacity: .8;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title >div> h1{
+    color: #F99941;
+    font-family: "Nunito Sans";
+    margin-right: 20px;
+    
+}
+
+.button-add{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.data{
+    margin-top: 20px;
+
+}
+
+.table-title {
+    font-family: "Nunito Sans";
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgb(245, 127, 68);
+    text-align: center;
+    
+
+  }
+  
+th {
+    border: 1px solid rgb(245, 127, 68);
+    text-align: center;
+    padding: 8px;
+    background-color: #F99941;
+    color: white;
+    width: 150px;
+  }
+
+.id-table {
+    width: 10px;
+}
+
+td {
+    border: 1px solid rgb(245, 127, 68);
+    padding: 8px;
+    width: 150px;
+}
+
+.button-list-edit {
+    margin-top: 3px;
+    margin-left: 26px;
+    width: 220px;
+}
+
+.search-icon-admin {
+    position: absolute;
+    top: 127px;
+    left: 700px;
+    cursor: pointer;
+}
+
+.button-list-edit > button {
+    background-color: #F99941;
+    border: none;
+    padding: 6px;
+    color: white;
+    margin: 3px;
+    border-radius: 4px;
+    box-shadow: 1px 1px #888888;
+}
+
+.button-list-edit > button:hover {
+    box-shadow: 0px 0px;
+    opacity: 0.9;
+}

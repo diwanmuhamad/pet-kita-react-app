@@ -1,0 +1,156 @@
+.sort{
+    margin-left: 15px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+
+
+.button-sort{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+
+.button-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 32px;
+    background: #F99941;
+    border: none;
+    color: #FFFFFF;
+
+    width: 99.5px;
+    height: 45px;
+}
+
+.button-OHL{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 32px;
+    background:none;
+    border: 1px solid;
+
+    width: 99px;
+    height: 45px;
+}
+
+.button-clear{
+    width: 120px;
+    height: 25px;
+
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.button-apply{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border:none;
+    width: 187px;
+    height: 45px;
+    color: #FFFFFF;
+
+
+    background: #F99941;
+    border-radius: 8px;
+}
+
+.button-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.Range-Price{
+    border: 1px solid;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.min{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 110px;
+    height: 78px;
+}
+
+.max{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin-left: 50px;
+
+    width: 110px;
+    height: 78px;
+}
+
+.button-min-max{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    margin-left: 15px;
+    margin-top: 30px;
+
+    width: 390px;
+    height: 78px;
+
+}
+
+.text-sort{
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.text-filter{
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 55px;
+}
+
+.text-range{
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 30px;
+}

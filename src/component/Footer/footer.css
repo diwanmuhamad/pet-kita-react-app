@@ -1,0 +1,225 @@
+.footer-main-container {
+    width: 100%;
+    background-color: #F99941;
+    height: 317px;
+    margin-top: 197px;
+    padding-top: 64px;
+    /* border: black 2px solid; */
+    padding-left: 150px;
+}
+
+.content-footer-container {
+    width: 90%;
+    display: flex;
+    /* border: black 2px solid; */
+}
+
+.footer-img {
+    margin-right: 10px;
+}
+
+.category-footer-li {
+    list-style: none;
+
+}
+
+li::before {
+    
+    /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+    content: "";
+    display: inline-block;
+    /* By using an em scale, the arrows will size with the font */
+    width: 0.18em;
+    height: 0.18em;
+    border-right: 0.2em solid white;
+    border-top: 0.2em solid white;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+    margin-bottom: 0.12em;
+}
+
+.footer-content {
+    color: white;
+    margin-right: 16px;
+    width: 500px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 28px;
+}
+
+.content-footer-container > :last-child {
+    margin-right: 2em;
+}
+
+.footer-content>:first-child {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.first {
+    width: 650px;
+    line-height: 24px;
+}
+
+.footer-content>p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer-content>:nth-child(2) {
+    margin-top: 16px;
+}
+
+.second {
+    width: 500px;
+    min-width: 150px;
+    margin-left: 0;
+    padding: 0;
+}
+
+.second > ul {
+    margin: 0;
+    padding: 0 0;
+    line-height: 34px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.icon-container-footer {
+    display: flex;
+    margin-top: 10px;
+}
+
+.fa-instagram, .fa-youtube-play, .fa-telegram, .fa-envelope {
+    color: #F99941;
+    padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5%;
+  }
+
+  .first > :last-child {
+      margin-top: 10px;
+  }
+
+
+@media screen and (max-width: 360px) {
+    .footer-main-container {
+        width: 100%;
+        background-color: #F99941;
+        height: 592px;
+        margin-top: 147px;
+        padding-top: 48px;
+        /* border: black 2px solid; */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 100px;
+    }
+    
+    .content-footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: black 2px solid; */
+    }
+    
+    
+    .footer-content {
+        color: white;
+        margin-right: 16px;
+        width: 500px;
+        font-family: 'Work Sans', sans-serif;
+        line-height: 28px;
+    }
+
+
+    
+    .content-footer-container > :last-child {
+        margin-right: 2em;
+        margin-top: 10px;
+    }
+    
+    .footer-content>:first-child {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+    }
+    
+    .first {
+        width: 100%;
+        line-height: 24px;
+
+    }
+    
+    .footer-content>p {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+    }
+    
+    .footer-content>:nth-child(2) {
+        margin-top: 16px;
+    }
+    
+    .second {
+        margin-top: 20px;
+        width: 0px;
+        min-width: 300px;
+    }
+    
+    .second > ul {
+        margin: 0;
+        padding: 0 0px;
+        line-height: 34px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+    
+    .icon-container-footer {
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .fa-instagram, .fa-youtube-play, .fa-telegram, .fa-envelope {
+        color: #F99941;
+        padding: 5px;
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50%;
+        background-color: white;
+        margin-right: 5%;
+      }
+      
+      .first p {
+        font-size: 14px;
+      }
+
+      .third {
+        width: 100%;
+      }
+
+
+      .third p {
+        font-size: 12px;
+      }
+
+      .first > :last-child {
+          margin-top: 10px;
+      }
+
+      .category-footer-li {
+        display: flex;
+        font-size: 13px;
+      }
+
+      .second-li-footer {
+        padding-left: 130px;
+      }
+}

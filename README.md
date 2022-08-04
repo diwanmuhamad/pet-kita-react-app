@@ -1,4 +1,4 @@
-# This is the front-end file of my web project PetKita (you can open PetKita website on this link: http://talentadigital.id:2021/) but you need to use extension CORS unblock to get the data from the database
+# This is the front-end file of my web project PetKita (you can open PetKita website on this link: http://talentadigital.id:2021/) but you need to use extension CORS unblock in your browser to get the data from the database
 
 
 # Getting Started with Create React App

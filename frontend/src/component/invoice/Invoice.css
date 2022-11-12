@@ -1,0 +1,198 @@
+.invoice-container{
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 86%;
+
+}
+
+.Invoice-directory{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.pro {
+    width: 15%;
+}
+
+.act {
+    padding: 3px;
+}
+
+.invoice-home{
+    margin-right: 10px;
+    color: #828282;
+    font-family: 'Nunito sans';
+}
+
+.invoice-arrow{
+    margin-right: 10px;
+    margin-top: 1px;
+    color: #828282;
+    font-family: 'Nunito sans';
+}
+
+.invoice-title{
+    margin-top: 1px;
+    font-family: 'Nunito sans';
+    color: #F99941;
+}
+
+.invoice-menu{
+    font-family: 'Nunito sans';
+}
+
+.table-invoice{
+    border-collapse: collapse;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center ;
+}
+
+.data-invoice-th{
+    border: none;
+    text-align: center;
+    background: #E0E0E0;
+    color: #4F4F4F;
+    height: 70px;
+    /* padding-right: 70px; */
+   
+}
+
+.data-invoice-th-no{
+    /* text-align: left; */
+    border: none;
+    background: #E0E0E0;
+    color: #4F4F4F;
+    padding-left: 20px;
+    /* align-items: center; */
+    /* padding-left: 30px; */
+    width: 6%;
+}
+
+.data-invoice-td{
+    text-align: center;
+    border: none;
+    color: #4F4F4F;
+    font-family: 'Nunito sans';
+    /* padding-right: 90px; */
+    
+}
+
+.data-invoice-td-no{
+    text-align: left;
+    border: none;
+    color: #4F4F4F;
+    font-family: 'Nunito sans';
+    /* padding-left: 33px; */
+    padding-left: 20px;
+}
+
+.invoice-det{
+    background-color: #F99941;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 35px;
+
+    font-family: 'Nunito sans';
+    color: #FFFFFF;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(249, 153, 65, 0.2);
+}
+
+@media screen and (max-width:360px) {
+    .invoice-container{
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    .table-container-mb{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .table-invoice{
+        width: 975px;
+        text-align: center;
+    }
+
+    .data-invoice-th{
+        border: none;
+        text-align: center;
+        background: #E0E0E0;
+        color: #4F4F4F;
+        font-size: 10px;
+        height: 50px;
+        /* padding-right: 90px; */
+    }
+    
+    .data-invoice-th-no{
+        text-align: left;
+        font-size: 10px;
+        border: none;
+        background: #E0E0E0;
+        color: #4F4F4F;
+        align-items: center;
+        /* padding-left: 30px; */
+    }
+    
+    .data-invoice-td{
+        text-align: center;
+        font-size: 10px;
+        border: none;
+        color: #4F4F4F;
+        font-family: 'Nunito sans';
+        /* padding-right: 90px; */
+    }
+
+    .data-invoice-td-no{
+        text-align: left;
+        font-size: 10px;
+        border: none;
+        color: #4F4F4F;
+        font-family: 'Nunito sans';
+        /* padding-left: 33px; */
+    }
+
+    .invoice-home{
+        margin-right: 10px;
+        color: #828282;
+        font-family: 'Nunito sans';
+        font-size: 20px;
+    }
+    
+    .invoice-arrow{
+        margin-right: 10px;
+        margin-top: 4px;
+        color: #828282;
+        font-family: 'Nunito sans';
+        font-size: 15px;
+    }
+    
+    .invoice-title{
+        margin-top: 4px;
+        font-family: 'Nunito sans';
+        color: #F99941;
+        font-size: 15px;
+    }
+
+    .invoice-menu{
+        font-family: 'Nunito sans';
+        font-size: 15px;
+    }
+
+    .invoice-det{
+        background-color: #F99941;
+        border: none;
+        border-radius: 5px;
+        width: 80%;
+        height: 25px;
+    
+        font-family: 'Nunito sans';
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+    
+}

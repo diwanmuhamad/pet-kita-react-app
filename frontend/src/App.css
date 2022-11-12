@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.App-main-default {
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}

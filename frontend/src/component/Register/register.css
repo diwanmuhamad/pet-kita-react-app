@@ -1,0 +1,89 @@
+.eye-iconpass {
+    position: absolute;
+    left: 350px;
+    bottom: 164px;
+    cursor: pointer;
+
+}
+
+.eye-loading {
+    position: absolute;
+    left: 350px;
+    bottom: 214px;
+    cursor: pointer;
+}
+
+.eye-move{
+    position: absolute;
+    left: 350px;
+    bottom: 222px;
+    cursor: pointer;
+
+}
+
+.eye-err {
+        position: absolute;
+        left: 350px;
+        bottom: 198px;
+        cursor: pointer;
+    
+    
+}
+
+.eye-iconpass {
+    position: absolute;
+    left: 350px;
+    bottom: 164px;
+    cursor: pointer;
+
+}
+
+
+.background-petkitaapp {
+    background-image: url("../../sourceImage/back.jpeg");
+    height: 750px;
+    width: 100%;
+    border: 1px solid #F99941;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 360px) {
+    .eye-iconpass {
+        position: absolute;
+        left: 310px;
+        bottom: 164px;
+        cursor: pointer;
+    }
+
+    .eye-move{
+        position: absolute;
+        left: 310px;
+        bottom: 222px;
+        cursor: pointer;
+    
+    }
+
+    .eye-loading {
+        position: absolute;
+        left: 310px;
+        bottom: 214px;
+        cursor: pointer;
+    }
+    
+    .eye-err {
+            position: absolute;
+            left: 310px;
+            bottom: 198px;
+            cursor: pointer;
+        
+        
+    }
+
+    .background-petkitaapp {
+        background-image: url("../../sourceImage/backmo.jpeg");
+        height: 750px;
+        width: 360px;
+        border: 1px solid #F99941;
+        background-size: 100% 100%;
+    }
+}

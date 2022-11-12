@@ -1,0 +1,130 @@
+.secondcontent-main-landing-container {
+    width: 87.5%;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.popularpet-name {
+    color: #4F4F4F;
+    font-family: "Nunito Sans";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.popularpetlist-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.popular-pet-container {
+    width: 260px;
+    background-color: white;
+    border: 2px solid rgb(211, 207, 207);
+    margin-right: 20px;
+}
+
+.img-pet-popular {
+    width: 100%;    
+    height: 180px;                 
+    border-bottom: 2px solid rgb(211, 207, 207);
+}
+
+.details-pet-popular {
+    margin-top: 24px;
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.details-pet-popular>:last-child {
+    margin-top: 60px;
+}
+
+.details-pet-popular > :first-child {
+    color: #F99941;
+}
+
+
+.details-pet-popular > :nth-child(2) {
+    color: #4F4F4F;
+}
+
+.popularpetCard {
+    width: 255px;
+    height: 180px;
+}
+
+
+
+@media screen and (max-width: 360px) {
+    .secondcontent-main-landing-container {
+        width: 87.5%;
+        margin-top: 70px;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    
+    .popularpet-name {
+        color: #4F4F4F;
+        font-family: "Nunito Sans";
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .popularpetlist-container {
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    
+    .popular-pet-container {
+        width: 200px;
+        height: 350px;
+        background-color: white;
+        margin-right: 20px;
+        flex: 0 0 auto;
+    }
+    
+    .img-pet-popular {
+        width: 200px;    
+        height: 134px;                 
+        border-bottom: 2px solid rgb(211, 207, 207);
+        
+    }
+    
+    .details-pet-popular {
+        margin-top: 24px;
+        margin-left: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .details-pet-popular>:last-child {
+        margin-top: 60px;
+    }
+    
+    .details-pet-popular > :first-child {
+        color: #F99941;
+    }
+    
+    
+    .details-pet-popular > :nth-child(2) {
+        color: #4F4F4F;
+    }
+    
+    .popularpetCard {
+        width: 196px;
+        height: 134px;
+    }
+ 
+}
+

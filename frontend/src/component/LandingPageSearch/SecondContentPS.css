@@ -1,0 +1,426 @@
+.containerPS {
+    display: flex;
+    margin-top: 40px;
+}
+
+.sort{
+    margin-left: 15px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.Pet-Checkbox{
+    display: flex;
+    flex-direction: column;
+    border: #828282 1px solid ;
+}
+
+.Pet-checkbox-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-left: 15px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 500;
+    width: 50%;
+    height: 25px;
+    margin-top: 16px;
+
+}
+
+
+
+.button-sort{
+    display: flex;
+    padding: 0px;
+    gap: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+
+.button-new{
+    padding: 10px;
+    gap: 32px;
+    background: #F99941;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    width: 99px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+.button-OHL {
+    color: #4F4F4F;
+    padding: 10px;
+    gap: 32px;
+    background-color: white;
+    border: #4F4F4F 1px solid;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    width: 99px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.button-clear{
+    width: 120px;
+    height: 25px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    color: #4F4F4F;
+}
+
+.button-apply{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border:none;
+    width: 187px;
+    height: 45px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Nunito Sans";
+    background: #F99941;
+    border-radius: 8px;
+}
+
+.button-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.Range-Price{
+    border: #828282 1px solid;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.min{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Nunito Sans";
+    width: 90px;
+    height: 78px;
+}
+
+.max{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin-left: 75px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Nunito Sans";
+    width: 90px;
+    height: 78px;
+}
+
+.button-min-max{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    margin-left: 15px;
+    margin-top: 30px;
+    color: #4F4F4F;
+    width: 390px;
+    height: 78px;
+
+}
+
+.text-sort{
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.text-filter{
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 55px;
+}
+
+.text-category{
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #4F4F4F;
+}
+
+.text-range{
+    color: #4F4F4F;
+    font-family: 'nunito sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.checkboxdiv {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: #828282 3px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    color: transparent;
+}
+
+.checkboxchecked {
+    width: 18px;
+    height: 18px;
+    background-color: #F99941;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.checklistmark {
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+.filterbutton-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .containerPS {
+        flex-direction: column;
+    }
+    .button-sort {
+        top: 104px;
+        position: absolute;
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .filterbutton-mobile {
+        display: block;
+        padding: 10px;
+        gap: 32px;
+        background: #F99941;
+        border: none;
+        color: #FFFFFF;
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 600;
+        width: 99px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    .text-sort {
+        display: none;
+    }
+
+    .Pet-Checkbox{
+        display: flex;
+        flex-direction: column;
+        border: none ;
+    }
+    
+    .Pet-checkbox-label{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        margin-left: 15px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        color: #4F4F4F;
+        font-size: 16px;
+        font-weight: 500;
+        width: 50%;
+        height: 25px;
+        margin-top: 16px;
+    
+    }
+
+    .button-clear{
+        width: 120px;
+        height: 25px;
+        font-family: "Nunito Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: flex-start;
+        color: #4F4F4F;
+    }
+    
+    .button-apply{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        border:none;
+        width: 187px;
+        height: 45px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Nunito Sans";
+        background: #F99941;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+    
+    .button-checkbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: 45px;
+    }
+    
+    .Range-Price{
+        margin-top: 20px;
+        padding-top: 15px;
+        border: none ;  
+        height: 500px;
+    }
+    
+    .min{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Nunito Sans";
+        width: 90px;
+        height: 78px;
+    }
+    
+    .max{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        margin-left: 0px;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Nunito Sans";
+        width: 90px;
+        height: 78px;
+    }
+    
+    .button-min-max{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        margin-left: 15px;
+        margin-top: 30px;
+        color: #4F4F4F;
+        width: 390px;
+        height: 78px;
+    
+    }
+
+    .filter-box-inmobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 850px;
+        width: 273px;
+        background-color: white;
+        z-index: 1;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .displayMissing {
+        display: none;
+    }
+
+    .clear22 {
+        margin-top: 130px;
+    }
+
+    .apply22 {
+        margin-top: 130px;
+    }
+
+    .filterblur-image-search {
+        position: absolute;
+        top: 0px;
+        left: 273px;
+        height: 850px;
+        width: 100%;
+        background-color: rgba(66, 65, 65, 0.61);
+        backdrop-filter: blur(5px);
+        z-index: 2;
+    }
+
+    .text-filter{
+        font-family: 'nunito sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    
+    
+}

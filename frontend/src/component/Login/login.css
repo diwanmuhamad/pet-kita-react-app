@@ -1,0 +1,36 @@
+.aaaabackground-petkitaapps {
+    background-image: url("../../sourceImage/back.jpeg");
+    height: 100%;
+    width: 100%;
+    border: 1px solid #F99941;
+    background-size: 100% 100%;
+    /* background-color: red; */
+}
+
+.appp {
+    background-image: url("../../sourceImage/back.jpeg");
+    height: 100%;
+    width: 100%;
+    border: 1px solid #F99941;
+    background-size: 100% 100%;
+    /* background-color: red; */
+}
+
+@media screen and (max-width: 360px) {
+
+    .aaaabackground-petkitaapps {
+        background-image: url("../../sourceImage/backmo.jpeg");
+        height: 750px;
+        width: 360px;
+        border: 1px solid #F99941;
+        background-size: 100% 100%;
+    }
+
+    .appp {
+        background-image: url("../../sourceImage/backmo.jpeg");
+        height: 650px;
+        width: 360px;
+        border: 1px solid #F99941;
+        background-size: 100% 100%;
+    }
+}

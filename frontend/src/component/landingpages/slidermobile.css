@@ -1,0 +1,48 @@
+.first-category-mobile {
+    background-image: url('../../../public/assets/bird1.jpg');
+    width: 250px;
+    height: 164px;
+    background-size: 250px 164px;
+    border: 1px solid #F99941;
+}
+
+.second-category-mobile {
+    background-image: url('../../../public/assets/cat2.jpg');
+    width: 250px;
+    height: 164px;
+    background-size: 250px 164px;
+    border: 1px solid #F99941;
+}
+
+.third-category-mobile {
+    background-image: url('../../../public/assets/dog1.jpg');
+    width: 250px;
+    height: 164px;
+    background-size: 250px 164px;
+    border: 1px solid #F99941;
+}
+
+.fourth-category-mobile {
+    background-image: url('../../../public/assets/hams1.jpg');
+    width: 250px;
+    height: 164px;
+    background-size: 250px 164px;
+    border: 1px solid #F99941;
+}
+
+.button-category-mobile {
+    width: 120px;
+    height: 37px;
+    border: 1px solid #F99941;
+    border-radius: 8px;
+    background-color: #F99941;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 100px;
+    margin-left: 64px;
+}
+

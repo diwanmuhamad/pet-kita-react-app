@@ -1,0 +1,128 @@
+.container-detailsinv{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    gap: 60%;
+    height: 82px;
+    margin-top: 25px;   
+
+}
+
+.container-notgl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+    height: 82px;
+    
+}
+
+.container-noinv{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 37px;
+    width: 100%;
+    height: 25px;
+}
+
+.container-noinv-tb{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    height: 25px;
+}
+
+.font-details{
+    font-family: 'Nunito sans';
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+
+.container-totprice{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    height: 35px;
+    padding-right: 0px;
+    justify-content: space-between;
+    color: #4F4F4F;
+}
+
+.invoice-menu-dt{
+    font-family: 'Nunito sans';
+    font-size: 16px;
+}
+
+.invoice-directory-dt{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+
+.invoice-home-dt{
+    margin-right: 10px;
+    color: #828282;
+    font-family: 'Nunito sans';
+}
+
+.invoice-arrow-dt{
+    margin-right: 10px;
+    margin-top: 1px;
+    color: #828282;
+    font-family: 'Nunito sans';
+}
+
+.invoice-title-dt{
+    margin-top: 1px;
+    font-family: 'Nunito sans';
+    color: #F99941;
+}
+
+@media screen and (max-width:360px){
+    .container-detailsinv{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+    }
+
+    .container-totprice{
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+
+    .container-noinv{
+        justify-content: space-between;
+        
+    }
+    
+    .container-noinv-tb{
+        justify-content: space-between;
+        
+    }
+
+    .container-totprice{
+        justify-content: space-between;
+    }
+
+    .font-details{
+        font-size: 14px;
+    }
+
+    .invoice-menu-dt{
+        font-size: 14px;
+    }
+
+    .invoice-directory-dt{
+        font-size: 10px;
+    }
+}
